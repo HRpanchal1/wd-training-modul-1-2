@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            background-color: teal;
+            color: white;
+        }
+        .anything{
+            background-color: teal;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p class="anything">test class use for apply Extenal and internal CSS</p>
+    <ul class="brief">
+        <li><code
+                id="global-attributes:the-accesskey-attribute"><a href="interaction.html#the-accesskey-attribute">accesskey</a></code>
+        </li>
+        <li><code
+                id="global-attributes:attr-autocapitalize"><a href="interaction.html#attr-autocapitalize">autocapitalize</a></code>
+        </li>
+        <li><code
+                id="global-attributes:attr-fe-autofocus"><a href="interaction.html#attr-fe-autofocus">autofocus</a></code>
+        </li>
+        <li><code
+                id="global-attributes:attr-contenteditable"><a href="interaction.html#attr-contenteditable">contenteditable</a></code>
+        </li>
+        <li><code id="global-attributes:attr-dir"><a href="#attr-dir">dir</a></code></li>
+        <li><code id="global-attributes:attr-draggable"><a href="dnd.html#attr-draggable">draggable</a></code></li>
+        <li><code
+                id="global-attributes:attr-enterkeyhint"><a href="interaction.html#attr-enterkeyhint">enterkeyhint</a></code>
+        </li>
+        <li><code id="global-attributes:attr-hidden"><a href="interaction.html#attr-hidden">hidden</a></code></li>
+        <li><code
+                id="global-attributes:the-inert-attribute"><a href="interaction.html#the-inert-attribute">inert</a></code>
+        </li>
+        <li><code id="global-attributes:attr-inputmode"><a href="interaction.html#attr-inputmode">inputmode</a></code>
+        </li>
+        <li><code id="global-attributes:attr-is"><a href="custom-elements.html#attr-is">is</a></code></li>
+        <li><code id="global-attributes:attr-itemid"><a href="microdata.html#attr-itemid">itemid</a></code></li>
+        <li><code
+                id="global-attributes:names:-the-itemprop-attribute"><a href="microdata.html#names:-the-itemprop-attribute">itemprop</a></code>
+        </li>
+        <li><code id="global-attributes:attr-itemref"><a href="microdata.html#attr-itemref">itemref</a></code></li>
+        <li><code id="global-attributes:attr-itemscope"><a href="microdata.html#attr-itemscope">itemscope</a></code>
+        </li>
+        <li><code id="global-attributes:attr-itemtype"><a href="microdata.html#attr-itemtype">itemtype</a></code></li>
+        <li><code id="global-attributes:attr-lang"><a href="#attr-lang">lang</a></code></li>
+        <li><code id="global-attributes:attr-nonce"><a href="urls-and-fetching.html#attr-nonce">nonce</a></code></li>
+        <li><code
+                id="global-attributes:attr-spellcheck"><a href="interaction.html#attr-spellcheck">spellcheck</a></code>
+        </li>
+        <li><code id="global-attributes:attr-style"><a href="#attr-style">style</a></code></li>
+        <li><code id="global-attributes:attr-tabindex"><a href="interaction.html#attr-tabindex">tabindex</a></code></li>
+        <li><code id="global-attributes:attr-title"><a href="#attr-title">title</a></code></li>
+        <li><code id="global-attributes:attr-translate"><a href="#attr-translate">translate</a></code></li>
+    </ul>
+
+
+    <a accesskey="i" title="press alt+i" href="http://google.com">Google</a>
+    <input type="text" autocapitalize="on" name="" id="">
+    <!-- <input type="text" autofocus autocapitalize="off" name="" id=""> -->
+    <input type="text" tabindex="1" autocapitalize="word" name="" id="">
+    <p class="bg">something</p>
+    <p class="bg" contenteditable="true">something Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+        repudiandae id minima animi reiciendis nulla, ipsum aliquam adipisci? Libero consectetur adipisci voluptatum,
+        laudantium ut amet fuga sint velit fugit quo.</p>
+    <p dir="ltr">something</p>
+    <p dir="rtl">something</p>
+    <img src="tagElement.png" alt="">
+    <img src="tagElement.png" draggable="false" alt="">
+    <div id="user" data-id="1234567890" data-user="johndoe" data-date-of-birth>John Doe</div>
+    <input id="username" type="text" enterkeyhint name="" id="">
+    <input placeholder="Enter button will change to previous" enterkeyhint="previous">
+    <p>something</p>
+    <p hidden>something</p>
+        <input type="text" spellcheck="false" name="" id="">
+        <input type="text" spellcheck="true" translate="no" style="background-color: grey;" name="" id="">
+    <script>
+        const el = document.querySelector('#user');
+    </script>
+</body>
+
+</html>
